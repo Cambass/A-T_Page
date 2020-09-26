@@ -56,7 +56,7 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+/* 
 /* Containers */
 
 .container {
@@ -65,7 +65,7 @@ body {
 }
 
 .container.\31 25\25 {
-  width: 100%;
+  /* width: 100%; */
   max-width: 100em;
   min-width: 80em;
 }
@@ -214,7 +214,7 @@ body {
     width: 90% !important;
   }
 
-}
+} */
 
 /* Grid */
 
@@ -1853,6 +1853,20 @@ header h6 + p {
     margin: 0;
   }
 
+  .content{
+    color: #ffffff;
+    height: 100%;
+    max-width: 85%;
+    overflow-y: auto;   
+    position: fixed;
+    right: 0;
+    width: 100%; 
+    /* /* display: flex;
+    justify-content: flex-end;
+    width: 75em;  */
+    /* max-width: 85%;   */
+  }
+
   .box .content {
     padding: 1.5em;
   }
@@ -1862,6 +1876,16 @@ header h6 + p {
     border-radius: 0;
     padding: 0;
   }
+
+  .carousel-inner img {
+    width: 100%;
+    max-height: 480px;
+}
+
+.carousel-caption h5{
+  color: white;
+  font-weight: 700;
+}
 
 /* Icon */
 
@@ -2559,12 +2583,13 @@ body {
 /* Menu */
 
 .cajita{
+  display: inline;
   background-image: url("https://thumbs.dreamstime.com/z/modelo-del-vector-fondo-exhausto-de-la-mano-geom%C3%A9trica-blanco-y-negro-con-las-l%C3%ADneas-verticales-impresi%C3%B3n-simple-para-el-papel-131419450.jpg");
   color: #ffffff;
   height: 100%;
   max-width: 60%;
   overflow-y: auto;   
-  position: fixed;
+  position: fixed; 
   left: 0;
   top: 80px;  
   width: 15em;
@@ -2579,11 +2604,9 @@ body {
   padding: 3em 2em; 
   left: 0;
   top: 100px; 
-  width: 15em;
-  /* z-index: 10002; */
+  width: 15em; 
 }
   #menu > ul {    
-    /* background: var(--color-negro); */
     margin: 0 0 1em 0;
   }
 
@@ -2738,98 +2761,6 @@ body {
       padding: 2.5em 1.75em;
     }
 
-  }
-
-/* Banner */
-
-#banner {
-  padding: 14em 0 12em 0;
-  background-image: url(../../images/banner.jpg);
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  text-align: center;
-}
-
-  #banner .content {
-    -moz-transition: opacity 1s ease-in-out, -moz-transform 0.75s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out, -webkit-transform 0.75s ease-in-out;
-    -ms-transition: opacity 1s ease-in-out, -ms-transform 0.75s ease-in-out;
-    transition: opacity 1s ease-in-out, transform 0.75s ease-in-out;
-    opacity: 1;
-  }
-
-  #banner h1 {
-    font-size: 3em;
-    color: #25a2c3;
-    line-height: 1em;
-    margin: 0 0 0.5em 0;
-    padding: 0;
-  }
-
-  #banner p {
-    font-size: 1.25em;
-    margin-bottom: 1.75em;
-  }
-
-  @media screen and (max-width: 1280px) {
-
-    #banner {
-      padding: 12em 0 10em 0;
-    }
-
-  }
-
-  @media screen and (max-width: 980px) {
-
-    #banner {
-      padding: 8em 6em 6em 6em;
-    }
-
-      #banner br {
-        display: none;
-      }
-
-      #banner h1 {
-        font-size: 2.25em;
-      }
-
-  }
-
-  @media screen and (max-width: 736px) {
-
-    #banner {
-      padding: 6em 4em 4em 4em;
-    }
-
-  }
-
-  @media screen and (max-width: 480px) {
-
-    #banner {
-      padding: 4em 2em 2em 2em;
-    }
-
-      #banner h1 {
-        font-size: 2em;
-      }
-
-      #banner p {
-        font-size: 1em;
-      }
-
-      #banner .button {
-        font-size: .9em;
-      }
-
-  }
-
-  body.is-loading #banner .content {
-    opacity: 0;
-    -moz-transform: translateY(1em);
-    -webkit-transform: translateY(1em);
-    -ms-transform: translateY(1em);
-    transform: translateY(1em);
   }
 
 /* Main */
@@ -3035,13 +2966,13 @@ body {
   }
 
  /* Redes */
-#check { display: none; }
+#check { display: flex; }
 
 .main,
 .container {
   margin: auto;
-  position: absolute;
-  top: 400px;
+  position: fixed; /* fixed */
+  top: 500px;
   bottom: 0;
   left: 20px;
   width: 60px;
@@ -3082,7 +3013,9 @@ body {
     color: #fafafa;
 }
 
-.container { z-index: 10; }
+.container { 
+  width: 4% !important;
+  z-index: 10; }
 
 .plate {
   margin: auto;  
