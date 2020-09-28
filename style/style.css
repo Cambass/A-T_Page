@@ -568,6 +568,8 @@ max-height: 480px;
     height: 80px;
 }
 
+/* Gallery */
+
 .gallery .container1{
   margin-left: 22em; 
   max-width: 70%;
@@ -575,13 +577,11 @@ max-height: 480px;
 
 @media (max-width: 781px){
   .gallery .container1{
-   
     margin-left: 0; 
     max-width: 100%;
   }
 }
 
-/* CSS Document */
 .gallery-block{padding-bottom: 10px; padding-top: 40px;}
 .gallery-block .heading{margin-bottom: 50px; text-align: center;}
 
