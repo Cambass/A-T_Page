@@ -139,10 +139,10 @@ body {
   .cajita{
     display: inline-flex;
     position: fixed;  
-    background-image: url("https://thumbs.dreamstime.com/z/modelo-del-vector-fondo-exhausto-de-la-mano-geom%C3%A9trica-blanco-y-negro-con-las-l%C3%ADneas-verticales-impresi%C3%B3n-simple-para-el-papel-131419450.jpg");
+    background-image: url("../img/lateral.png");
     color: #ffffff;
     height: 100%;
-    max-width: 60%;
+    max-width: 70%;
     overflow-y: auto;       
     left: 0;
     top: 90px;  
@@ -151,7 +151,7 @@ body {
   #menu {
     background: var(--color-negro);
     color: #ffffff;
-    height: 50%;
+    height: 65%;
     max-width: 60%;
     overflow-y: auto;   
     position: fixed;
@@ -159,6 +159,13 @@ body {
     left: 0;
     top: 100px; 
     width: 15em; 
+  }
+
+  .logo{
+      display: block;
+      margin: auto;
+      height: 90px;
+      width: 90px;
   }
     #menu > ul {    
       margin: 0 0 1em 0;
@@ -301,13 +308,13 @@ body {
       visibility: visible;
     }
   
-    /* @media screen and (max-width: 980px) {
+    @media screen and (max-width: 980px) {
   
       #menu ul.actions {
         display: block;
       }
   
-    } */
+    }
   
     @media screen and (max-width: 736px) {
   
@@ -317,7 +324,25 @@ body {
   
     }
   
-  /*  */
+  /* wathapp */
+
+  .whatsapp {
+    /* position:fixed; */
+    /* width:159px;
+    height:57px;
+    bottom:10px;
+    right:40px; 
+    /* background-color:#25d366; */
+    /* color:#FFF; */
+    border-radius:30px;
+    text-align:center;
+    font-size:20px;
+    z-index:100; 
+  }
+/*   
+  .whatsapp-icon {
+    margin-top:13px;
+  } */
   
  /* Redes */
 #check { display: flex; }
@@ -326,7 +351,7 @@ body {
 .container {
   margin: auto;
   position: fixed; /* fixed */
-  top: 500px;
+  top: 620px;
   bottom: 0;
   left: 20px;
   width: 60px;
