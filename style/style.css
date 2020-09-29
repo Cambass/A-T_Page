@@ -590,8 +590,9 @@ max-height: 480px;
 /* Gallery */
 
 .gallery .container1{
-  margin-left: 25em; 
+  margin-left: 22em; 
   max-width: 100%;
+
 }
 
 @media (max-width: 781px){
