@@ -496,9 +496,9 @@ max-height: 480px;
 /*Anuncios*/
 
 .contenedor {   
-    margin-top: 1rem;
-    margin-bottom: 2rem;     
-    max-width: 120rem; /* * = 1200px; * */
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;     
+    max-width: 96rem; /* * = 1200px; * */
     margin-left: 16em;
     margin-right: 1em;
 }
@@ -521,8 +521,8 @@ max-height: 480px;
   .anuncio {   
     border: 1px solid #B5B5B5;
     background-color: #F5F5F5;
-    margin-bottom: 2rem;    
-    /* width: calc(33% - 1rem); */
+    margin-bottom: 0.5rem;    
+    width: calc(25% - 1rem);
   }
   @media (min-width: 768px) {
     .anuncio {
