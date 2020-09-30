@@ -169,11 +169,11 @@ body {
   #menu {
     background: var(--color-negro);
     color: #ffffff;
-    height: 65%;
+    height: 57%;
     max-width: 60%;
     overflow-y: auto;   
     position: fixed;
-    padding: 3em 2em; 
+    padding: 1.8em 2em; 
     left: 0;
     top: 80px; 
     width: 15em; 
