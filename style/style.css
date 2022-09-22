@@ -4,7 +4,8 @@
 
 :root{
     --color-negro: #1A1A1A;  
-    --color-naranja: #F47300; 
+    --color-naranja: #F47300;
+    --color-rojo: #790000;  
   }
   
 body{
@@ -221,7 +222,7 @@ body {
       }
   
       #menu ul li:hover{
-        color: var(--color-naranja);
+        color: var(--color-rojo);
       }
   
       @media screen and (max-width: 788px) {
@@ -374,11 +375,11 @@ body {
   z-index: 50;
 }
 
-.main:hover { background-color:var(--color-naranja); }
+.main:hover { background-color:var(--color-rojo); }
 
 .main:active {
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.35), inset 2px 3px 3px rgba(0, 0, 0, 0.35);
-  background-color: var(--color-naranja);  
+  background-color: var(--color-rojo);  
 }
 
 .main .title {
@@ -393,7 +394,7 @@ body {
   font-size: 1.8em;
   line-height: 80px;
   text-align: center;
-  color:var(--color-naranja);
+  color:var(--color-rojo);
 }
 
 .main .title:hover {
@@ -429,7 +430,7 @@ body {
   color: #faf4f2;
 }
 
-.plate:hover i { color: var(--color-naranja); }
+.plate:hover i { color: var(--color-rojo); }
 
 .plate {
   background-color: var(--color-negro);         
@@ -514,7 +515,7 @@ max-height: 480px;
   @media (min-width: 768px) {
     .contenedor-anuncios{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
     }
   }
@@ -528,7 +529,7 @@ max-height: 480px;
     .anuncio {
         margin: 0;
         width: 100%;
-        flex: 0 0 calc(33.3% - 1rem);
+        flex: 0 1 calc(40% - 2rem);
     }
   }
   .contenido-anuncio {
@@ -537,7 +538,7 @@ max-height: 480px;
   }
   .contenido-anuncio h3{
       margin: 0;
-      color: var(--color-naranja);
+      color: var(--color-rojo);
   } 
   .contenido-anuncio p  {
     margin: 0;
@@ -670,7 +671,7 @@ max-height: 480px;
 }
 
 .project-container button:focus-within{
-  outline: 3px solid var(--color-naranja);
+  outline: 3px solid var(--color-rojo);
 }
 
 .project-img {
@@ -699,7 +700,7 @@ max-height: 480px;
 
 .arrow:hover {
   transform: scale(1.1);
-  color: var(--color-naranja);
+  color: var(--color-rojo);
 }
 
 .arrow i{
@@ -743,7 +744,7 @@ max-height: 480px;
 
 .notification {
   align-items: center;
-  background-color: var(--color-naranja);
+  background-color: var(--color-rojo);
   border-radius: 5px;
   box-shadow: 8px 16px 32px 0px var(--color-negro);
   color: var(--blanco);
@@ -768,7 +769,7 @@ max-height: 480px;
 }
 
 #modal-header {
-  outline: 3px solid var(--color-naranja); 
+  outline: 3px solid var(--color-rojo); 
 }
 
 .modal {
