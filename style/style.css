@@ -527,7 +527,7 @@ max-height: 480px;
   }
   @media (min-width: 768px) {
     .anuncio {
-        margin: 0;
+        margin: 2rem;
         width: 100%;
         flex: 0 1 calc(40% - 2rem);
     }
