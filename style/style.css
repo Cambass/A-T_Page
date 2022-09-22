@@ -168,7 +168,8 @@ body {
     width: 15em;
   }
   #menu {
-    background: var(--color-negro);
+    opacity: .8;
+    background: var(--color-rojo);
     color: #ffffff;
     height: 57%;
     max-width: 60%;
@@ -222,7 +223,7 @@ body {
       }
   
       #menu ul li:hover{
-        color: var(--color-rojo);
+        color: var(--color-negro);
       }
   
       @media screen and (max-width: 788px) {
