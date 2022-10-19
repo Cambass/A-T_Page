@@ -550,7 +550,7 @@ max-height: 534px;
 .marca { 
     
     margin-top: 3rem;
-    margin-bottom: 2rem;     
+    margin-bottom: 0rem;     
     max-width: 120rem; /* * = 1200px; * */
     margin-left: 16em;
     margin-right: 1em;
@@ -563,7 +563,7 @@ max-height: 534px;
     align-items: center;
     padding: 0 100px 0;
     height: 8em;
-    background: var(--color-negro);  
+    background: var(--color-rojo);  
 }
   
 .logos img{
@@ -582,7 +582,7 @@ max-height: 534px;
   .logos{
     padding: 0 10px 0;
     height: 7em;
-    background: var(--color-negro);  
+    background: var(--color-rojo);  
 }
   
 .logos img{
