@@ -68,7 +68,7 @@ body {
   .principal img{
     display: block;
     margin: auto;
-    margin-left: 55em;
+    margin-left: 38em;
     padding-top: 1%;
     width: 140px;
     height: 70px;
@@ -185,8 +185,8 @@ body {
   .logo{
       display: block;
       margin: auto;
-      height: 150px;
-      /* width: 90px; */
+      height: 95px;
+       width: 120px;
   }
     #menu > ul {    
       margin: 0 0 1em 0;
@@ -474,7 +474,7 @@ body {
 
 .carousel-inner img {
 width: 100%;
-max-height: 480px;
+max-height: 534px;
 }
 
 .carousel-caption h5{
@@ -502,7 +502,7 @@ max-height: 480px;
     margin-top: 0.5rem;
     margin-bottom: 1rem;     
     max-width: 96rem; /* * = 1200px; * */
-    margin-left: 25em;
+    margin-left: 18em;
     margin-right: 1em;
 }
 
